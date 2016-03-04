@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>Careerx-CET4&6</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="cetPanel" style=" display:none">
+       <img id="startphoto" src="images/1.jpg" >
+       <div id="card" >
+           <em id="youName">于宁波</em>，自从在
+           <em id="schoole">山大</em>遇见你，就爱上了你~
+       </div>
+
+   </div>
+   <div class="collectInfo" style="display:block">
+       <div class="infoTitle">要生成的专属明星祝福<br>请先填写以下信息</div>
+       <table class="collectInfoTable">
+           <tr>
+               <td>
+                   <input type="text" id="youNameInput" placeholder="请输入你的姓名">
+               </td>
+           </tr>
+           <tr>
+               <td><input type="text" id="schooleInput" placeholder="请输入你们相识的学校"></td>
+           </tr>
+           <tr>
+               <td>
+                   <select id="cetTypeInput">
+                       <option value="吴亦凡" selected>吴亦凡</option>
+                       <option value="宋小宝">宋小宝</option>
+                       <option value="岳云鹏">岳云鹏</option>
+                       <option value="李易峰">李易峰</option>
+                       <option value="胡歌">胡歌</option>
+                       <option value="陈翔">陈翔</option>
+                       <option value="霍建华">霍建华</option>
+                       <option value="鹿晗">鹿晗</option>
+                   </select>
+               </td>
+           </tr>
+
+           <tr>
+               <td colspan="2" style="text-align:center">
+                  <br>
+                   <input id="createImgBtn" type="button" value="生成专属明星祝福">
+                   <br>
+                   <br>
+                   <a href="index.html">点这里分享给更朋友</a>
+               </td>
+           </tr>
+       </table>
+   </div>
+   <script src="js/jQuery.js"></script>
+   <script type="text/javascript" src="js/html2canvas.js"></script>
+   <script type="text/javascript" src="js/createImg.js"></script>
+</body>
+</html>

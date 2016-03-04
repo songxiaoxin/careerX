@@ -35,7 +35,7 @@ $(document).ready(function(){
                 $('#downloadBtn').attr( 'download' , '我的'+cetType+'成绩单.png' ) ;
                 $("div.cetPanel").hide();*/
                 $("body").append("<h3 id='tempTitle' style='width:100%;text-align:center'>＞请长按保存图片或截图然后发朋友圈吧＜</h3>");
-                //$("div.cetPanel").hide();
+                $("div.cetPanel").hide();
                /* var downloadBtn = $('<br/><a href="'+canvas.toDataURL("image/png")+'" download="我的'+cetType+'成绩单.png" style="font-size:1.5rem">下载成绩单</a>');
                 $("body").append(downloadBtn);*/
                 var image = new Image();
